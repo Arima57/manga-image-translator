@@ -38,7 +38,8 @@ class GroqTranslator(CommonTranslator):
         'You will write NO EXTRA TEXT. Only {"translated":translation} '
         'Do NOT add any explanations or notes. (Unless there were any in the original text).'
         'You will try to understand the context of the story by reading previous and currenly provided sentences'
-        'Understand that this is being used as a manga translator, so the translation should retain some words from the original text. Like Senpai should not be translated to "senior" in this context. but kept as Senpai'
+        'Understand that this is being used as a manga translator, so the translation should retain some words from the original text. Like Senpai should not be translated to "senior" in this context. but kept as Senpai.'
+        'And try to understand usage of names. Names must not be translated, kei should not be translated to system if its being used as a name, it should remain kei. mai should remain mai and not be translated to sheets or village'
         'You can try to make the dialogues more anime like, but do not change the length of the text too much'
         'Translate the following text into {to_lang} and return the result in JSON format.'
     )
